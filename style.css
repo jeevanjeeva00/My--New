@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: rgb(41,62,207);
+    color: white;
+    text-align: center;
+
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+   padding: auto;
+}
+
+h1{
+    font-size: 80px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.content{
+    display: inline;
+    margin: 40px;
+    text-align: justify;
+    
+}
+
+.content p{
+    padding-left: 20px;
+}
+
+.data{
+    text-align: center;
+}
+button{
+    
+    background-color: rgb(4, 4, 179) ;
+     color: white;
+    padding: 10px;
+    border-radius: 5px ;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-color: transparent;
+}
+
+.content1{
+
+    background-color: rgb(234, 230, 235);
+    text-align: center;
+}
+.data1{
+    text-align: center;
+    
+}
+.data2{
+    background-color: transparent;
+    color: black;
+    border-color: blue;
+ 
+
+}
+
+img {
+    height:90px;
+    width: 90px;
+    margin: 20px;
+    border-radius: 2px;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(120, 119, 119);
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a i{
+        
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 30px;
+    height: 30 px;
+
+}
+
+@media only screen and  (max-width:700px){
+
+    .logo{
+        height: 20px;
+        width: 20px;
+
+    }
+
+
+    h1{
+        font-size: 37px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+    .content{
+        font-size: 8px;
+        display: inline;
+    }
+
+    .content p{
+        padding-right: 20px;
+        padding-left: 10;
+    }
+
+    button{
+    
+        background-color: rgb(31, 31, 189) ;
+         color: white;
+        padding: 5px;
+        border-radius: 5px ;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-color: transparent;
+        font-size: 8px;
+    }
+
+    .content1{
+
+        background-color: rgb(234, 230, 235);
+        text-align: center;
+    }
+
+    .content1 p{
+        font-size: 8px;
+       padding-left: 10px;
+       padding-right: 10px;
+    }
+
+    .data1{
+        text-align: center;
+        
+    }
+    .data2{
+        background-color: transparent;
+        color: black;
+        border-color: blue;
+        padding-left: 10px;
+        padding-right: 10px;
+     
+    
+    }
+    
+    img {
+        height:50px;
+        width: 50px;
+     
+        margin: 10px;
+        border-radius: 2px;}
+
+
+        footer{
+            text-align: center;
+            background-color: rgb(120, 119, 119);
+            color: white;
+            font-size: 7px;
+            line-height: 10px;
+        }
+        
+        footer a {
+            color: white;
+        }
+        
+
+        footer a i{
+                
+            padding: 2px;
+            margin: 2px;
+            border: 1px solid;
+            border-radius: 50%;
+            width: 15px;
+            height: 15 px;
+        
+        }
+
+        
+}
